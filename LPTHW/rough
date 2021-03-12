@@ -1,0 +1,21 @@
+class Parent(object):
+
+    def override(self):
+        print("Parent override()")
+
+class Child(Parent):
+
+    def override(self):
+        print("child override()")
+
+
+dad = Parent()
+son = Child()
+
+dad.override()
+son.override()
+
+#except AssertionError:
+          #word_type = 'error'
+          #results.append((word_type, w))
+          #return results
